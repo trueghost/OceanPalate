@@ -6,7 +6,7 @@
 
 Before you begin, ensure you have met the following requirements:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
 ### Run Locally
 
@@ -24,7 +24,8 @@ Windows:
 git clone https://github.com/codewithsadee/grilli.git
 ```
 
-
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+# Changed name to chackochi310
