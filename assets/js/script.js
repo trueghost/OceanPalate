@@ -373,3 +373,50 @@ function toggleContent(action) {
     readLessButton.style.display = "none";
   }
 }
+
+const images = [
+  "./assets/images/brunch.png",
+  "./assets/images/Fish_Pollichathu.jpg",
+  "./assets/images/brunch2.jpg",
+];
+const contentData = [
+  {
+    title: "Brunch",
+    description: "food brunch piece prepared by our skilled chefs. Featuring a diverse selection of premium seafood, it's a symphony of flavors in every bite. Availability is subject to the day's freshest catches, ensuring a truly exceptional dining experience.",
+    price: "$40.00",
+  },
+  {
+    title: "Signature Sea Food Meals",
+    description: "Discover our Signature Seafood Meal, a culinary masterpiece prepared by our skilled chefs. Featuring a diverse selection of premium seafood, it's a symphony of flavors in every bite. Availability is subject to the day's freshest catches, ensuring a truly exceptional dining experience.",
+    price: "$20.00",
+  },
+  {
+    title: "Brunch2",
+    description: "Discover our Signature Seafood Meal, a culinary masterpiece prepared by our skilled chefs. Featuring a diverse selection of premium seafood, it's a symphony of flavors in every bite. Availability is subject to the day's freshest catches, ensuring a truly exceptional dining experience.",
+    price: "$60.00",
+  },
+];
+
+let currentContentIndex = 0;
+function updateContent() {
+  document.getElementById('dishImage').src = images[currentContentIndex];
+  document.getElementById('title').textContent = contentData[currentContentIndex].title;
+  document.getElementById('description').textContent = contentData[currentContentIndex].description;
+  document.getElementById('price').textContent = contentData[currentContentIndex].price;
+}
+function showPreviousContent() {
+  currentContentIndex--;
+  if (currentContentIndex < 0) {
+    currentContentIndex = images.length - 1;
+  }
+  updateContent();
+}
+
+function showNextContent() {
+  currentContentIndex++;
+  if (currentContentIndex >= images.length) {
+    currentContentIndex = 0;
+  }
+  updateContent();
+}
+updateContent();
