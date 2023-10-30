@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Ocean Palate Resturant</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    custom PHP link
+  -->
+  <!-- <form action="form-handler.php" method="post" class="form-left"></form> -->
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/careers.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <a href="#" class="logo">
+        <img
+          src="./assets/images/logo1.svg"
+          width="160"
+          height="50"
+          alt="Ocean Palate image"
+        />
+      </a>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span" id="headerAddress">
+            <!-- 900 jameson Parkway, Cambridge, Canada -->
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-3" id="contactInfo">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span"></span>
+        </div>
+ 
+        <div class="separator"></div>
+
+        </a>
+
+        <div class="topbar-item item-2" id="operatingHours">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span"></span>
+        </div>
+
+        <div class="separator"></div>
+
+        <a href="mailto:Oceanpalate@gmail.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Oceanpalate@gmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+          src="./assets/images/logo1.svg"
+            width="220"
+            height="50"
+            alt="Ocean Palate image"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+            src="./assets/images/logo1.svg"
+            width="160"
+              height="50"
+              alt="Grilli - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link  active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+            <li class="nav-bar-item">
+              <a href="#special" class="navbar-link">
+                <div class="separator"></div>
+
+                <span class="span">Specials</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link">
+                <div class="separator"></div>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+           
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">
+                <div class="separator"></div>
+
+                <span class="span">Career</span>
+              </a>
+            </li>
+            
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">
+                <div class="separator"></div>
+                <span class="span" id="selectedLocation">Our Locations</span>
+              </a>
+              <ul class="dropdown" id="locationDropdown">
+                <li><a href="#" data-location="Brampton">Brampton</a></li>
+                <li><a href="#" data-location="Cambridge">Cambridge</a></li>
+                <li><a href="#" data-location="Hamilton">Hamilton</a></li>
+                <li><a href="#" data-location="Mississauga">Mississauga</a></li>
+                <!-- Add more locations as needed -->
+              </ul>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              Restaurant St, Delicious City, <br />
+              London 9578, UK
+            </address>
+
+            <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+            <a href="mailto:booking@grilli.com" class="body-4 sidebar-link"
+              >booking@grilli.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:+88123123456"
+              class="body-1 contact-number"
+            >
+              +88-123-123456
+            </a>
+          </div>
+        </nav>
+
+        <a
+          href="https://chat.whatsapp.com/HgAh8EMUBEuFF0C8ZjuxOU"
+          class="btn btn-secondary"
+        >
+          <span class="text text-1">Join Premier Club</span>
+
+          <span class="text text-2" aria-hidden="true">Join Premier Club</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+         
+            <div class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/careers.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Build your careers <br />
+                with us
+              </h1>
+
+              
+            </div>
+         
+
+        </section>
+
+        <!-- 
+        - #Career Content
+      -->
+
+      <section class="special-dish text-center bg-black-10"id="special" aria-labelledby="dish-label">
+        
+
+        <div class="special-dish-content">
+          <div class="container">
+           
+
+            <h2 class="headline-1 section-title title-career">BE A PART OF OUR RESTAURANT</h2>
+
+            <p class="section-text">
+              At Ocean Palate, we understand that food is more than just sustenance. It is an experience that should be savoured and shared with friends and family.
+We strive to provide our customers with an enjoyable dining experience that includes great food, excellent customer service, and a warm, inviting atmosphere.
+
+            </p>
+          </div>
+        </div>
+        <div class="special-dish-banner">
+          <img
+            src="./assets/images/Resturant-1.jpg  "
+            width="642"
+            height="512"
+            loading="lazy"
+            alt="special dish"
+            class="img-cover"
+          />
+        </div>
+
+       
+      </section>
+       
+      <section class="special-dish text-center bg-black-10"id="special" aria-labelledby="dish-label">
+        <div class="special-dish-banner">
+          <img
+            src="./assets/images/resturant-img-2.png"
+            width="940"
+            height="500"
+            loading="lazy"
+            alt="special dish"
+            class="img-cover"
+          />
+        </div>
+
+        <div class="special-dish-content">
+          <div class="container">
+            <p class="section-text">
+              We are always looking for talented individuals to join our team and help us create an unforgettable experience for our customers. If you are passionate about food, customer service, and making people happy, then a career in Ocean Palate could be the perfect fit for you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+            <!-- Your existing code for features -->
+    
+            <!-- Add the feedback form below -->
+            <div class="form feedback-form bg-black-10">
+                <form class="form-left" method="post">
+                    <h2 class="headline-1 text-center">Feedback Form</h2>
+    
+                    <div class="input-wrapper">
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Your Name"
+                            autocomplete="off"
+                            class="input-field"
+                        />
+    
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Your Email"
+                            autocomplete="off"
+                            class="input-field"
+                        />
+                    </div>
+    
+                    <textarea
+                        name="message"
+                        placeholder="About Yourself"
+                        autocomplete="off"
+                        class="input-field"
+                    ></textarea>
+    
+                    <button type="submit" class="btn btn-secondary">
+                        <span class="text text-1">Submit</span>
+                        <span class="text text-2" aria-hidden="true">Submit Feedback</span>
+                    </button>
+                </form>
+            </div>
+    
+            <!-- End feedback form -->
+        </div>
+    </section>
+      
+   
+
+        <!-- 
+        - #EVENT
+      -->
+
+        <section class="section event bg-black-10" aria-label="event">
+          <div class="container">
+            <h2 class="headline-1 text-center">Current Openings</>
+
+            <!-- <h2 class="section-title headline-1 text-center">Our Services</h2> -->
+
+            <ul class="grid-list">
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/polichath.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Carrers ."
+                      class="img-cover"
+                    />
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">
+                      CAREER
+                    </p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Exciting New Job Opportunity
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/unsplash_bX0tQ0HTRLg.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Franchisinng image"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">
+                      FRANCHISE
+                    </p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Unlock Your Entrepreneurial Journey: Join our franchise
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/Rectangle.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Catering"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">CATERING</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Catering Excellence: Your Event, Our Expertise
+                    </h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url('./assets/images/footer-bg.jpg')"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo1.svg"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              Restaurant St, Delicious City, London 9578, UK
+            </address>
+
+            <a href="mailto:booking@grilli.com" class="body-4 contact-link"
+              >booking@grilli.com</a
+            >
+
+            <a href="tel:+88123123456" class="body-4 contact-link"
+              >Booking Request : +88-123-123456</a
+            >
+
+            <p class="body-4">Open : 09:00 am - 01:00 pm</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Get News & Offers</p>
+
+            <p class="label-1">
+              Subscribe us & Get <span class="span">25% Off.</span>
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Your email"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Subscribe</span>
+
+                <span class="text text-2" aria-hidden="true">Subscribe</span>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Menu</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >About Us</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Our Chefs</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2022 Grilli. All Rights Reserved | Crafted by
+            <a
+              href="https://github.com/codewithsadee"
+              target="_blank"
+              class="link"
+              >codewithsadee</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
