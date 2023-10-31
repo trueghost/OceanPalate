@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
     <!-- 
     - primary meta tags
@@ -182,7 +183,7 @@
               </a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-link">
+              <a href="careers.html" class="navbar-link">
                 <div class="separator"></div>
 
                 <span class="span">Career</span>
@@ -925,13 +926,14 @@
     
             <!-- Add the feedback form below -->
             <div class="form feedback-form bg-black-10">
-                <form class="form-left" method="post">
+                <form class="form-left" onsubmit="sendemail(event)" method="post">
                     <h2 class="headline-1 text-center">Feedback Form</h2>
     
                     <div class="input-wrapper">
                         <input
                             type="text"
                             name="name"
+                            id="thename"
                             placeholder="Your Name"
                             autocomplete="off"
                             class="input-field"
@@ -940,6 +942,7 @@
                         <input
                             type="email"
                             name="email"
+                            id="themail"
                             placeholder="Your Email"
                             autocomplete="off"
                             class="input-field"
@@ -950,10 +953,11 @@
                         name="message"
                         placeholder="Feedback"
                         autocomplete="off"
+                        id="themsg"
                         class="input-field"
                     ></textarea>
     
-                    <button type="submit" class="btn btn-secondary">
+                    <button type="submit" class="btn btn-secondary" onclick="sendemail(event);">
                         <span class="text text-1">Submit Feedback</span>
                         <span class="text text-2" aria-hidden="true">Submit Feedback</span>
                     </button>
@@ -1347,5 +1351,44 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <script>
+      function sendemail(event) {
+        if (event) {
+        event.preventDefault();
+        var userid = "5hsGG7jo_It9mvP4A";
+        emailjs.init(userid);
+        var thename = document.getElementById('thename').value;
+        var themail = document.getElementById('themail').value;
+        var themsg = document.getElementById('themsg').value;
+        var validmail = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+    
+        if (thename === "") {
+          alert("Please Enter Name");
+        } else if (themail === "" || !themail.match(validmail)) {
+          alert("Please Enter Valid Email");
+        } else if (themsg === "") {
+          alert("Please Enter Message");
+        } else {
+          var contactdetail = {
+            from_name: thename,
+            from_email: themail,
+            message: themsg
+          };
+    
+          emailjs.send('service_4c70ged', 'template_69b61kd', contactdetail).then(function (res) {
+            alert("Email Sent Successfully");
+            // Clear the form after successful email submission
+            document.getElementById('thename').value = "";
+            document.getElementById('themail').value = "";
+            document.getElementById('themsg').value = "";
+          }, function (error) {
+            alert("Error Occurred: " + error);
+          });
+        }
+        }
+      }
+    </script>
+    
   </body>
 </html>
