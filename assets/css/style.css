@@ -2406,7 +2406,8 @@ textarea.input-field {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  padding: 10px;
+  padding: 70px 50px;
+  overflow: auto;
 }
 .modal-active {
   display: block;
@@ -2416,15 +2417,21 @@ textarea.input-field {
   top: 10px;
   right: 10px;
   z-index: 20;
+  transition: transform 0.3s;
+}
+.menu-close:hover {
+  transform: rotate(90deg);
 }
 .menu-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
 }
 .itemContainer {
   display: flex;
   position: relative;
   gap: 15px;
+  width: 100%;
 }
 .itemTextContainer {
   display: flex;
@@ -2438,4 +2445,19 @@ textarea.input-field {
 .itemDesc {
   font-family: var(--fontFamily-dm_sans);
   font-size: 14px !important;
+  color: #a6a6a6;
+}
+.itemRate {
+  margin-left: auto;
+  color: var(--gold-crayola);
+  font-family: var(--fontFamily-forum);
+  font-size: 26px;
+}
+.truncate {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Adjust the number of lines as needed */
+  overflow: hidden;
+  line-height: normal;
+  width: 100%;
 }
