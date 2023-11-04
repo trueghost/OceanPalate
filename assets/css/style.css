@@ -1117,6 +1117,9 @@ body.nav-active {
   #ABOUT
 \*-----------------------------------*/
 
+.about {
+  z-index: 0;
+}
 .about .section-text {
   margin-block: 15px 30px;
 }
@@ -1246,7 +1249,9 @@ body.nav-active {
 /*-----------------------------------*\
   #MENU
 \*-----------------------------------*/
-
+.menu {
+  position: relative;
+}
 .menu .section-title {
   margin-block-end: 40px;
 }
@@ -1466,7 +1471,6 @@ textarea.input-field {
   margin-inline: auto;
   transition: var(--transition-2);
 }
-
 
 .feature-card .card-title {
   margin-block: 20px;
@@ -2389,4 +2393,49 @@ textarea.input-field {
     bottom: 80px;
     left: 0;
   }
+}
+/* View Menu */
+.menu-modal {
+  display: none;
+  width: 80vw;
+  height: 70vh;
+  background-color: #171717;
+  border: 1px solid var(--gold-crayola);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding: 10px;
+}
+.modal-active {
+  display: block;
+}
+.menu-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 20;
+}
+.menu-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.itemContainer {
+  display: flex;
+  position: relative;
+  gap: 15px;
+}
+.itemTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.itemName {
+  font-family: var(--fontFamily-forum);
+  font-size: 22px !important;
+}
+.itemDesc {
+  font-family: var(--fontFamily-dm_sans);
+  font-size: 14px !important;
 }
