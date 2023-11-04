@@ -512,6 +512,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 console.log('Desired Location:', desiredLocation);
 
+// correct 
+
 
 const menuItemsForLocation = menu.filter((menuItem) =>
   menuItem.locations.includes(desiredLocation)
