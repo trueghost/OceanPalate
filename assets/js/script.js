@@ -375,3 +375,190 @@ function toggleContent(action) {
     readLessButton.style.display = "none";
   }
 }
+
+const images = [
+  "./assets/images/brunch.png",
+  "./assets/images/Fish_Pollichathu.jpg",
+  "./assets/images/brunch2.jpg",
+];
+const contentData = [
+  {
+    title: "Brunch",
+    description:
+      "food brunch piece prepared by our skilled chefs. Featuring a diverse selection of premium seafood, it's a symphony of flavors in every bite. Availability is subject to the day's freshest catches, ensuring a truly exceptional dining experience.",
+    price: "$40.00",
+  },
+  {
+    title: "Signature Sea Food Meals",
+    description:
+      "Discover our Signature Seafood Meal, a culinary masterpiece prepared by our skilled chefs. Featuring a diverse selection of premium seafood, it's a symphony of flavors in every bite. Availability is subject to the day's freshest catches, ensuring a truly exceptional dining experience.",
+    price: "$20.00",
+  },
+  {
+    title: "Brunch2",
+    description:
+      "Discover our Signature Seafood Meal, a culinary masterpiece prepared by our skilled chefs. Featuring a diverse selection of premium seafood, it's a symphony of flavors in every bite. Availability is subject to the day's freshest catches, ensuring a truly exceptional dining experience.",
+    price: "$60.00",
+  },
+];
+const menu = [
+  {
+    image: "./assets/images/menu-1.png",
+    name: "Dish 1",
+    description: "Description for Dish 1",
+    rate: "$10.00",
+    locations: ["Brampton", "Cambridge"],
+  },
+  {
+    image: "./assets/images/menu-2.png",
+    name: "Dish 2",
+    description: "Description for Dish 2",
+    rate: "$12.00",
+    locations: ["Brampton", "Hamilton"],
+  },
+  {
+    image: "./assets/images/menu-2.png",
+    name: "Dish 2",
+    description: "Description for Dish 2",
+    rate: "$12.00",
+    locations: ["Brampton", "Hamilton"],
+  },
+  {
+    image: "./assets/images/menu-2.png",
+    name: "Dish 2",
+    description: "Description for Dish 2",
+    rate: "$12.00",
+    locations: ["Brampton", "Hamilton"],
+  },
+  {
+    image: "./assets/images/menu-2.png",
+    name: "Dish 2",
+    description: "Description for Dish 2",
+    rate: "$12.00",
+    locations: ["Brampton", "Hamilton"],
+  },
+  {
+    image: "./assets/images/menu-2.png",
+    name: "Dish 2",
+    description: "Description for Dish 2",
+    rate: "$12.00",
+    locations: ["Brampton", "Hamilton"],
+  },
+  {
+    image: "./assets/images/menu-2.png",
+    name: "Dish 2",
+    description: "Description for Dish 2",
+    rate: "$12.00",
+    locations: ["Brampton", "Hamilton"],
+  },
+  {
+    image: "./assets/images/menu-3.png",
+    name: "Dish 3",
+    description: "Description for Dish 3",
+    rate: "$11.00",
+    locations: ["Cambridge", "Mississauga"],
+  },
+  {
+    image: "./assets/images/menu-4.png",
+    name: "Dish 4",
+    description: "Description for Dish 4",
+    rate: "$13.00",
+    locations: ["Cambridge", "Hamilton"],
+  },
+  {
+    image: "./assets/images/menu-4.png",
+    name: "Dish 4",
+    description: "Description for Dish 4",
+    rate: "$13.00",
+    locations: ["Cambridge", "Hamilton"],
+  },
+];
+const desiredLocation = "Hamilton";
+
+const menuItemsForLocation = menu.filter((menuItem) =>
+  menuItem.locations.includes(desiredLocation)
+);
+
+// menu script
+let menuElement = document.getElementById("menu-modal");
+let viewMenu = document.getElementById("view-menu");
+let menuClose = document.getElementById("menu-close");
+
+viewMenu.addEventListener("click", () => {
+  menuElement.classList.add("modal-active");
+  document.body.style.overflow = "hidden";
+});
+menuClose.addEventListener("click", () => {
+  menuElement.classList.remove("modal-active");
+  document.body.style.overflow = "auto";
+});
+const menuContent = document.getElementById("menuContent");
+if (menuItemsForLocation.length > 0) {
+  console.log(`Menu items available in ${desiredLocation}:`);
+  menuItemsForLocation.forEach((menuItem) => {
+    const menuContainer = document.createElement("div");
+    menuContainer.className = "itemContainer";
+
+    const itemImage = document.createElement("img");
+    itemImage.className = "itemImage";
+    itemImage.src = menuItem.image;
+    itemImage.alt = menuItem.name;
+    itemImage.innerHTML = menuItem.image;
+    const itemTextContainer = document.createElement("div");
+    itemTextContainer.className = "itemTextContainer";
+    const itemName = document.createElement("span");
+    itemName.className = "itemName";
+    itemName.innerHTML = menuItem.name;
+    const itemDesc = document.createElement("span");
+    itemDesc.className = "itemDesc";
+    itemDesc.innerHTML = menuItem.description;
+    const itemRate = document.createElement("span");
+    itemRate.className = "itemRate";
+    itemRate.innerHTML = menuItem.rate;
+    itemTextContainer.appendChild(itemName);
+    itemTextContainer.appendChild(itemDesc);
+    // Append the new div to the existing div
+    menuContainer.appendChild(itemImage);
+    menuContainer.appendChild(itemTextContainer);
+    menuContainer.appendChild(itemRate);
+    menuContent.appendChild(menuContainer);
+    menuElement.appendChild(menuContent);
+
+    console.log("Image: " + menuItem.image);
+    console.log("Dish Name: " + menuItem.name);
+    console.log("Description: " + menuItem.description);
+    console.log("Rate: " + menuItem.rate);
+    console.log("---");
+  });
+} else {
+  console.log(`No menu items available in ${desiredLocation}.`);
+}
+
+// menu script end
+
+let currentContentIndex = 0;
+function updateContent() {
+  document.getElementById("dishImage").src = images[currentContentIndex];
+  document.getElementById("title").textContent =
+    contentData[currentContentIndex].title;
+  document.getElementById("description").textContent =
+    contentData[currentContentIndex].description;
+  document.getElementById("price").textContent =
+    contentData[currentContentIndex].price;
+}
+function showPreviousContent() {
+  currentContentIndex--;
+  if (currentContentIndex < 0) {
+    currentContentIndex = images.length - 1;
+  }
+  updateContent();
+}
+
+function showNextContent() {
+  currentContentIndex++;
+  if (currentContentIndex >= images.length) {
+    currentContentIndex = 0;
+  }
+  updateContent();
+}
+updateContent();

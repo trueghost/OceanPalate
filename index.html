@@ -520,54 +520,41 @@
         <!-- 
         - #SPECIAL DISH
       -->
-
-      <section class="special-dish text-center bg-black-10"id="special" aria-labelledby="dish-label">
-        <img class="leftChev" src="assets/images/leftChevron.svg" alt="">
-        <div class="special-dish-banner">
-          <img
-            src="./assets/images/Fish_Pollichathu.jpg  "
-            width="940"
-            height="500"
-            loading="lazy"
-            alt="special dish"
-            class="img-cover"
-          />
+      <section class="special-dish text-center bg-black-10" id="special" aria-labelledby="dish-label">
+        <img class="leftChev" src="assets/images/leftChevron.svg" alt="" onclick="showPreviousContent()">
+        <div class="special-dish-banner" id="banner">
+          <img src="" width="400" height="300" loading="lazy" alt="special dish" class="img-cover" id="dishImage">
         </div>
-
-        <div class="special-dish-content">
+      
+        <div class="special-dish-content" id="content">
           <div class="container">
-            <img
-              src="./assets/images/badge-1.png"
-              width="28"
-              height="41"
-              loading="lazy"
-              alt="badge"
-              class="abs-img"
-            />
-
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img" />
+      
             <p class="section-subtitle label-2">Special Dish</p>
-
-            <h2 class="headline-1 section-title">Signature Sea Food Meals</h2>
-
-            <p class="section-text">
-              "Discover our Signature Seafood Meal, a culinary masterpiece prepared by our skilled chefs.
-              Featuring a diverse selection of premium seafood, it's a symphony of flavors in every bite. 
-              Availability is subject to the day's freshest catches, ensuring a truly exceptional dining experience."
+      
+            <h2 class="headline-1 section-title" id="title">Signature Sea Food Meals</h2>
+      
+            <p class="section-text" id="description">
+              "Discover our Signature Seafood Meal, a culinary masterpiece prepared by our skilled chefs. Featuring a diverse selection of premium seafood, it's a symphony of flavors in every bite. Availability is subject to the day's freshest catches, ensuring a truly exceptional dining experience."
             </p>
-
+      
             <div class="wrapper">
-              <span class="span body-1">$20.00</span>
+              <span class="span body-1" id="price">$20.00</span>
             </div>
-
+      
             <a href="#" class="btn btn-primary">
               <span class="text text-1">View All Menu</span>
-
+      
               <span class="text text-2" aria-hidden="true"
                 >View All Menu</span
               >
             </a>
           </div>
         </div>
+      
+        <img class="rightChev" src="assets/images/chevronRight.svg" alt="" onclick="showNextContent()">
+      </section>
+      
 
         <!-- <img
           src="./assets/images/shape-4.png"
@@ -577,9 +564,7 @@
           alt=""
           class="shape shape-1"
         /> -->
-        <img class="rightChev" src="assets/images/chevronRight.svg" alt="">
        
-      </section>
 
         <!-- 
         - #MENU
@@ -802,12 +787,17 @@
             <span class="span">9:00 pm</span>
           </p>
 
-          <a href="#" class="btn btn-primary">
+          <a id="view-menu" class="btn btn-primary ">
             <span class="text text-1">View All Menu</span>
 
             <span class="text text-2" aria-hidden="true">View All Menu</span>
           </a>
 
+            <div id="menu-modal" class="menu-modal">
+              <button id="menu-close" class="menu-close"> <img src="assets/images/close.svg" alt=""></button>
+              <div class="menu-content" id="menuContent"></div>
+            </div>
+          
           <img
             src="./assets/images/shape-5.png"
             width="921"
@@ -905,14 +895,14 @@
               </div>
             </figure>
 
-            <img
+            <!-- <img
               src="./assets/images/shape-3.png"
               width="197"
               height="194"
               loading="lazy"
               alt=""
               class="shape"
-            />
+            /> -->
           </div>
         </section>
 
