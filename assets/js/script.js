@@ -473,7 +473,45 @@ const menu = [
     locations: ["Cambridge", "Hamilton"],
   },
 ];
-const desiredLocation = "Hamilton";
+
+let desiredLocation = "Brampton"; // Set a default location
+
+// Function to compare desiredLocation with menu items
+function compareLocationWithMenu() {
+  menu.forEach((menuItem, index) => {
+    console.log(`Menu Item ${index}:`, menuItem);
+    console.log(`Locations in Menu Item ${index}:`, menuItem.locations);
+
+    if (menuItem.locations.includes(desiredLocation)) {
+      console.log(`Desired Location ${desiredLocation} found in Menu Item ${index}`);
+      // Perform any action here for the matching menuItem
+    } else {
+      console.log(`Desired Location ${desiredLocation} not found in Menu Item ${index}`);
+    }
+  });
+}
+
+// Log initial comparison
+compareLocationWithMenu();
+
+document.addEventListener("DOMContentLoaded", function () {
+  const locationDropdown = document.getElementById("locationDropdown");
+  const selectedLocationElement = document.getElementById("selectedLocation");
+
+  locationDropdown.addEventListener("click", function (event) {
+    if (event.target.tagName === "A") {
+      desiredLocation = event.target.getAttribute("data-location");
+      selectedLocationElement.textContent = desiredLocation;
+      console.log(desiredLocation); // Check the selected location
+
+      // Compare whenever desiredLocation changes
+      compareLocationWithMenu();
+    }
+  });
+});
+
+console.log('Desired Location:', desiredLocation);
+
 
 const menuItemsForLocation = menu.filter((menuItem) =>
   menuItem.locations.includes(desiredLocation)
