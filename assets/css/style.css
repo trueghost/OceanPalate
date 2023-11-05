@@ -1231,7 +1231,7 @@ body.nav-active {
 }
 
 .special-dish .btn {
-  margin-inline: auto;
+  margin-inline: none;
 }
 .special-dish-banner {
   width: 400px;
@@ -2076,7 +2076,7 @@ textarea.input-field {
   }
 
   .special-dish-content .wrapper {
-    justify-content: center;
+    justify-content: left;
   }
 
   .special-dish .abs-img {
@@ -2338,7 +2338,7 @@ textarea.input-field {
    */
 
   .about-content {
-    padding-inline-end: 90px;
+    padding-inline-end: 60px;
   }
 
   .about .shape {
@@ -2422,6 +2422,10 @@ textarea.input-field {
 .menu-close:hover {
   transform: rotate(90deg);
 }
+.menu-icon {
+  height: 25px;
+  width: 25px;
+}
 .menu-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2460,4 +2464,15 @@ textarea.input-field {
   overflow: hidden;
   line-height: normal;
   width: 100%;
+}
+/* about us */
+.aboutUsText,
+.aboutUsTitle {
+  text-align: left;
+}
+.special-dish .section-text {
+  text-align: left;
+}
+.special-dish .section-title{
+  text-align: left;
 }

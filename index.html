@@ -794,7 +794,7 @@
           </a>
 
             <div id="menu-modal" class="menu-modal">
-              <button id="menu-close" class="menu-close"> <img src="assets/images/close.svg" alt=""></button>
+              <button id="menu-close" class="menu-close"> <img src="assets/images/close.svg" alt="" class="menu-icon"></button>
               <div class="menu-content" id="menuContent"></div>
             </div>
           
@@ -830,36 +830,18 @@
             <div class="about-content">
               <p class="label-2 section-subtitle" id="about-label">About Us</p>
 
-              <h2 class="headline-1 section-title">
+              <h2 class="headline-1 section-title aboutUsTitle">
                 Crafting Culinary Memories Since 2015
               </h2>
 
-              <p class="section-text">
-                Est. 2015, Ocean Palate brings the essence of Kerala to Canada. Our commitment: fresh, premium ingredients and a symphony of spices in every dish. From cherished recipes to seafood delicacies, we serve an authentic experience. Join us in savoring India's rich flavors.
-              </p>
-              <!-- <div class="additional-content" style="display: none;  overflow: hidden; transition: max-height 0.5s ease;">
+              <p class="section-text aboutUsText">
                 Ocean Palate is a well-known Kerala restaurant brand proudly serving authentic Kerala cuisine to the people of Canada since 2015, it was a major success, drawing a significant customer base even from a great distance outside of Toronto city borders. Our food is prepared using only the freshest ingredients and spices, and we take pride in creating delicious traditional dishes that will tantalize your taste buds.
-
-   At Ocean Palate, we are passionate about presenting the flavours of Kerala cuisine in the most authentic way. From traditional dishes and seafoods, to modern creations, our chefs craft each dish with care and precision. Our specialty is the traditional Kerala style of cooking, which combines a variety of spices and flavours to create a unique and savoury experience. We use only the freshest ingredients and strive to make every dish as authentic and flavourful as possible.
-   Whether you are looking for a casual dining experience or a special occasion, Ocean Palate is the perfect place to enjoy the flavours of India. We look forward to welcoming you soon!
-            </div>
-
-            <div class="buttons">
-              <a href="#" class="btn btn-primary read-more"  onclick="toggleContent('read-more');">
-                  <span class="text text-1">Read More</span>
-                  <span class="text text-2" aria-hidden="true">Read More</span>
-              </a>
-
-              <a  href="#"class="btn btn-secondary read-less" style="display: none;" onclick="toggleContent('read-less');">
-                  <span class="text text-1">Read Less</span>
-                  <span class="text text-2" aria-hidden="true">Read Less</span>
-              </a>
-          </div> -->
+              </p>
             </div>
 
             <figure class="about-banner">
               <img
-                src="./assets/images/about-banner.jpg"
+                src="./assets/images/aboutUs1.png"
                 width="570"
                 height="570"
                 loading="lazy"
@@ -875,7 +857,7 @@
                 data-parallax-speed="1.75"
               >
                 <img
-                  src="./assets/images/about-abs-image.jpg"
+                  src="./assets/images/aboutUs2.png"
                   width="285"
                   height="285"
                   loading="lazy"
@@ -886,7 +868,7 @@
 
               <div class="abs-img abs-img-2 has-before">
                 <img
-                  src="./assets/images/badge-2.png"
+                  src="./assets/images/badge-3.png"
                   width="133"
                   height="134"
                   loading="lazy"
@@ -1077,13 +1059,11 @@
         <section class="section event bg-black-10" aria-label="event">
           <div class="container">
             <p class="section-subtitle label-2 text-center">Our Services</p>
-
-            <!-- <h2 class="section-title headline-1 text-center">Our Services</h2> -->
-
-            <ul class="grid-list">
+              <ul class="grid-list">
               <li>
-                <div class="event-card has-before hover:shine">
-                  <div
+                <a href="careers.html">
+                  <div class="event-card has-before hover:shine">
+                    <div
                     class="card-banner img-holder"
                     style="--width: 350; --height: 450"
                   >
@@ -1098,15 +1078,16 @@
                     >
                   </div>
 
-                  <div class="card-content">
-                    <p class="card-subtitle label-2 text-center">
+                  <div href="careers.html" class="card-content">
+                    <a class="card-subtitle label-2 text-center">
                       CAREER
-                    </p>
+                    </a>
 
                     <h3 class="card-title title-2 text-center">
                       Exciting New Job Opportunity
                     </h3>
                   </div>
+                </a>
                 </div>
               </li>
 

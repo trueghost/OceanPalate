@@ -403,126 +403,141 @@ const menu = [
   {
     image: "./assets/images/menu-1.png",
     name: "Chicken Cutlet",
-    description: "Minced potato mixed with minced chicken, green chilly and curry leaves coated with bread crumbs and deep fried",
+    description:
+      "Minced potato mixed with minced chicken, green chilly and curry leaves coated with bread crumbs and deep fried",
     rate: "$5.99",
-    locations: ["Brampton", "Cambridge"],
+    locations: ["Mississauga", "Cambridge"],
   },
   {
     image: "./assets/images/menu-2.png",
     name: "Tandoori Lamb Chop",
     description: "Description for Dish 2",
     rate: "$12.00",
-    locations: ["Brampton", "Hamilton"],
+    locations: ["Mississauga", "Hamilton"],
   },
   {
     image: "./assets/images/menu-2.png",
     name: "Tandoori Chicken Wings",
     description: "Marinated chicken wings cooked in tandoor to perfection",
     rate: "$14.99",
-    locations: ["Brampton", "Cambridge"],
+    locations: ["Mississauga", "Cambridge"],
   },
   {
     image: "./assets/images/menu-2.png",
     name: "Tandoori Chicken Tikka",
-    description: "Boneless pieces of chicken breast, marinated in yogurt and tandoori spices, served with fresh mint chutney",
+    description:
+      "Boneless pieces of chicken breast, marinated in yogurt and tandoori spices, served with fresh mint chutney",
     rate: "$15.99",
-    locations: ["Brampton", "Cambridge"],
+    locations: ["Mississauga", "Cambridge"],
   },
   {
     image: "./assets/images/menu-2.png",
     name: "Chicken Momo",
-    description: "Traditional Indian dumplings filled with chicken and stemmed to perfection,served with chili sauce",
+    description:
+      "Traditional Indian dumplings filled with chicken and stemmed to perfection,served with chili sauce",
     rate: "$10.99",
-    locations: ["Brampton", "Cambridge"],
+    locations: ["Mississauga", "Cambridge"],
   },
   {
     image: "./assets/images/menu-2.png",
     name: "Vegetable Momo",
-    description: "Traditional Indian dumplings filled with vegetables and stemmed to perfection served with chili sauce",
+    description:
+      "Traditional Indian dumplings filled with vegetables and stemmed to perfection served with chili sauce",
     rate: "$10.99",
-    locations: ["Brampton", "Cambridge"],
+    locations: ["Mississauga", "Cambridge"],
   },
   {
     image: "./assets/images/menu-2.png",
     name: "Malabar Chili Prawns",
-    description: "Pan seared shrimp tossed with spicy Malabar masala, fished with green chili and curry leaves",
+    description:
+      "Pan seared shrimp tossed with spicy Malabar masala, fished with green chili and curry leaves",
     rate: "$17.99",
-    locations: ["Brampton", "Hamilton"],
+    locations: ["Mississauga", "Hamilton"],
   },
   {
     image: "./assets/images/menu-3.png",
     name: "Calamari Fry",
     description: "Calamari cotted with kerala spices and deep fried",
     rate: "$16.99",
-    locations: ["Brampton", "Cambridge"],
+    locations: ["Mississauga", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Ceylone Fried Chicken",
-    description: "Chicken marinated in house blend exotic south Indian spices and deep fried",
+    description:
+      "Chicken marinated in house blend exotic south Indian spices and deep fried",
     rate: "$13.99",
-    locations: ["Brampton", "Cambridge"],
+    locations: ["Mississauga", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Tandoori Paneer Tikka",
-    description: "Indian cottage cheese marinated with spices and cooked in tandoor",
+    description:
+      "Indian cottage cheese marinated with spices and cooked in tandoor",
     rate: "$14.99",
-    locations: ["Brampton", "Cambridge"],
+    locations: ["Mississauga", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Vegetable Samosa",
-    description: "Traditional pastry filled with mild spiced potatoes, onions, peas and deep fried",
+    description:
+      "Traditional pastry filled with mild spiced potatoes, onions, peas and deep fried",
     rate: "$4.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "South Indian Vegetable Cutlet",
-    description: "Minced potato mixed with minced vegetables, green chilly, and curry leaves,coated with bread crumbs and deep fried",
+    description:
+      "Minced potato mixed with minced vegetables, green chilly, and curry leaves,coated with bread crumbs and deep fried",
     rate: "$4.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Tandoori Chicken Tikka",
-    description: "Boneless pieces of chicken breast, marinated in yogurt and tandoori spices,served with fresh mint chutney",
+    description:
+      "Boneless pieces of chicken breast, marinated in yogurt and tandoori spices,served with fresh mint chutney",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Tandoori Malai Tikka",
-    description: "Boneless Pieces of Chicken Breast, Marinated in Mild Cashew Paste Indian Spices",
+    description:
+      "Boneless Pieces of Chicken Breast, Marinated in Mild Cashew Paste Indian Spices",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Village Style Tandoori Kaada",
-    description: "Two Whole Kaada Marinated In Tandoori Masala and Cooked in Tandoor",
+    description:
+      "Two Whole Kaada Marinated In Tandoori Masala and Cooked in Tandoor",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Tandoori Paneer Tikka",
-    description: "Indian cottage cheese marinated with spices and cooked in tandoor",
+    description:
+      "Indian cottage cheese marinated with spices and cooked in tandoor",
     rate: "$14.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Amritsari Fish Pakora",
-    description: "Street style batter fried Basa fish served with green chutney",
+    description:
+      "Street style batter fried Basa fish served with green chutney",
     rate: "$13.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Signature Seafood Meal",
-    description: "Ask your server for details of this daily special combo of seafood curries, include dry and gravy",
+    description:
+      "Ask your server for details of this daily special combo of seafood curries, include dry and gravy",
     rate: "$24.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -536,7 +551,8 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Chicken Curry Meal",
-    description: "Traditional Kerala meal served with house style chicken curry",
+    description:
+      "Traditional Kerala meal served with house style chicken curry",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -550,14 +566,16 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Signature Non-vegetarian Meal",
-    description: "Ask your server for details of this daily special combo of non-veg curries include dry and gravy",
+    description:
+      "Ask your server for details of this daily special combo of non-veg curries include dry and gravy",
     rate: "$24.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Fish Curry Meal",
-    description: "Traditional Kerala meal served with chef's special fish curry of the day",
+    description:
+      "Traditional Kerala meal served with chef's special fish curry of the day",
     rate: "$17.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -571,28 +589,32 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Fish Pollichathu",
-    description: "Grilled local fish cooked in chilly tamarind souse and wrapped in banana leaves",
+    description:
+      "Grilled local fish cooked in chilly tamarind souse and wrapped in banana leaves",
     rate: "$12.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Golden Pompano Pollichathu",
-    description: "Grilled Whole pompano cooked in chilly tamarind souse and wrapped in banana leaves",
+    description:
+      "Grilled Whole pompano cooked in chilly tamarind souse and wrapped in banana leaves",
     rate: "$19.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Nadan Chicken Curry",
-    description: "A south Indian style chicken curry with onion tomato sauce and coconut milk",
+    description:
+      "A south Indian style chicken curry with onion tomato sauce and coconut milk",
     rate: "$13.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Chef's Special Chicken",
-    description: "A specialty chicken dish from the gods own country finished with green chilly and coriander",
+    description:
+      "A specialty chicken dish from the gods own country finished with green chilly and coriander",
     rate: "$14.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -606,21 +628,24 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Malabar Mussels Masala",
-    description: "A spicy street food specialty from the Malabar coast (seasonal)",
+    description:
+      "A spicy street food specialty from the Malabar coast (seasonal)",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Masala Fried Fish",
-    description: "King fish steak shallow fried and served with house curry sauce and onion salad",
+    description:
+      "King fish steak shallow fried and served with house curry sauce and onion salad",
     rate: "$15.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Konkan Shrimp Curry",
-    description: "Shrimp cooked in a tangy onion tomato sauce and finished with coconut milk",
+    description:
+      "Shrimp cooked in a tangy onion tomato sauce and finished with coconut milk",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -641,21 +666,24 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Kerala Beef Fry",
-    description: "Pot roasted beef portions cooked in Kerala spices and pieces of fresh coconut, finished with curry leaves and green chilly",
+    description:
+      "Pot roasted beef portions cooked in Kerala spices and pieces of fresh coconut, finished with curry leaves and green chilly",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Mutton Curry",
-    description: "A popular classic south Indian delicacy of mutton, finished with roasted coconut sauce",
+    description:
+      "A popular classic south Indian delicacy of mutton, finished with roasted coconut sauce",
     rate: "$15.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Nadan Beef Curry",
-    description: "Pot roasted beef portions cooked with chef's signature curry gravy",
+    description:
+      "Pot roasted beef portions cooked with chef's signature curry gravy",
     rate: "$15.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -676,28 +704,32 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Chicken Kizhi Porotta",
-    description: "Three pieces of house made Kerala porotta stuffed with spicy nadan chicken curry and wrapped in banana leaf, grilled in slow fire",
+    description:
+      "Three pieces of house made Kerala porotta stuffed with spicy nadan chicken curry and wrapped in banana leaf, grilled in slow fire",
     rate: "$17.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Beef Kizhi Porotta",
-    description: "Three pieces of house made Kerala porotta stuffed with spicy beef curry and wrapped in a banana leaf, grilled in slow fire",
+    description:
+      "Three pieces of house made Kerala porotta stuffed with spicy beef curry and wrapped in a banana leaf, grilled in slow fire",
     rate: "$18.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Mutton Kizhi Porotta",
-    description: "Three pieces of house made Kerala porotta stuffed with spicy nadan mutton curry and wrapped in banana leaf, grilled in slow fire",
+    description:
+      "Three pieces of house made Kerala porotta stuffed with spicy nadan mutton curry and wrapped in banana leaf, grilled in slow fire",
     rate: "$22.00",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Ocean Palate Signature Nidhi Kizhi",
-    description: "Three pieces of house made Kerala porotta stuffed with spicy beef curry, chicken curry, and mutton curry wrapped in a banana leaf, grilled in slow fire",
+    description:
+      "Three pieces of house made Kerala porotta stuffed with spicy beef curry, chicken curry, and mutton curry wrapped in a banana leaf, grilled in slow fire",
     rate: "$19.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -718,35 +750,40 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Butter Chicken",
-    description: "A mildly spiced classic Indian dish, with pieces of marinated chicken cooked in a creamy cashew tomato sauce",
+    description:
+      "A mildly spiced classic Indian dish, with pieces of marinated chicken cooked in a creamy cashew tomato sauce",
     rate: "$14.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Chicken Tikka Masala",
-    description: "Three pieces of house made Kerala porotta stuffed with spicy beef curry and wrapped in a banana leaf, grilled in slow fire",
+    description:
+      "Three pieces of house made Kerala porotta stuffed with spicy beef curry and wrapped in a banana leaf, grilled in slow fire",
     rate: "$15.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Kadai Chicken",
-    description: "A spicy dish cooked with bell peppers and a rich onion tomato gravy",
+    description:
+      "A spicy dish cooked with bell peppers and a rich onion tomato gravy",
     rate: "$15.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Kadai Mutton",
-    description: "A spicy dish cooked with bell peppers and a rich onion tomato gravy",
+    description:
+      "A spicy dish cooked with bell peppers and a rich onion tomato gravy",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Chilly Chicken",
-    description: "A Hakka style chilly chicken cooked with bell peppers and diced onion",
+    description:
+      "A Hakka style chilly chicken cooked with bell peppers and diced onion",
     rate: "$15.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -760,7 +797,8 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Egg Curry",
-    description: "Farm fresh eggs cooked in onion tomato sauce and finished with coconut milk",
+    description:
+      "Farm fresh eggs cooked in onion tomato sauce and finished with coconut milk",
     rate: "$12.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -781,35 +819,40 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Kadala Curry",
-    description: "Black chickpeas tossed with onion, tomato finished with roasted coconut sauce",
+    description:
+      "Black chickpeas tossed with onion, tomato finished with roasted coconut sauce",
     rate: "$10.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Yellow Lentil",
-    description: "Yellow moong lentil cooked with onion, tomato, coriander leaves, green chilly finished with cumin",
+    description:
+      "Yellow moong lentil cooked with onion, tomato, coriander leaves, green chilly finished with cumin",
     rate: "$10.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Butter Paneer",
-    description: "Indian cottage cheese cooked in a creamy tomato sauce. *Contains cashew paste",
+    description:
+      "Indian cottage cheese cooked in a creamy tomato sauce. *Contains cashew paste",
     rate: "$13.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Kadai Paneer",
-    description: "Indian cottage cheese cooked with onion and bell pepper finished with kadai masala",
+    description:
+      "Indian cottage cheese cooked with onion and bell pepper finished with kadai masala",
     rate: "$14.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Sag Paneer",
-    description: "Indian cottage cheese cooked in a signature creamy spinach sauce",
+    description:
+      "Indian cottage cheese cooked in a signature creamy spinach sauce",
     rate: "$13.99",
     locations: ["Brampton", "Cambridge"],
   },
@@ -844,21 +887,24 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Tandoori Garlic Naan",
-    description: "A popular house made Indian flat bread topped with fresh chopped garlic, fresh coriander leaves and brushed with melted butter",
+    description:
+      "A popular house made Indian flat bread topped with fresh chopped garlic, fresh coriander leaves and brushed with melted butter",
     rate: "$3.75",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Cheese Naan",
-    description: "House made Indian flat bread topped with cheese brushed with melted butter",
+    description:
+      "House made Indian flat bread topped with cheese brushed with melted butter",
     rate: "$4.25",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Ocean Palate Special Naan",
-    description: "House made Indian flat bread topped with garlic, cheese, crushed red chilly, fresh coriander leaves and brushed with melted butter",
+    description:
+      "House made Indian flat bread topped with garlic, cheese, crushed red chilly, fresh coriander leaves and brushed with melted butter",
     rate: "$4.75",
     locations: ["Brampton", "Cambridge"],
   },
@@ -913,7 +959,8 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Appam",
-    description: "One piece of Kerala hopers, a must try specialty from “the Gods own country”",
+    description:
+      "One piece of Kerala hopers, a must try specialty from “the Gods own country”",
     rate: "$1.75",
     locations: ["Brampton", "Cambridge"],
   },
@@ -941,167 +988,192 @@ const menu = [
   {
     image: "./assets/images/menu-4.png",
     name: "Ghee Roast",
-    description: "Traditional plain Dosa topped with clarified butter and served with sambar and chutney",
+    description:
+      "Traditional plain Dosa topped with clarified butter and served with sambar and chutney",
     rate: "$10.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Onion Masala Dosa",
-    description: "Classic masala dosa filled with mild potato topped with chopped onion served with sambar and coconut chutney",
+    description:
+      "Classic masala dosa filled with mild potato topped with chopped onion served with sambar and coconut chutney",
     rate: "$13.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Plain Dosa",
-    description: "Traditional plain dosa, served with sambar and coconut chutney (vegan)",
+    description:
+      "Traditional plain dosa, served with sambar and coconut chutney (vegan)",
     rate: "$9.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Masala Dosa",
-    description: "Classic masala dosa filled with mild potato, served with sambar and coconut chutney",
+    description:
+      "Classic masala dosa filled with mild potato, served with sambar and coconut chutney",
     rate: "$12.95",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Plain Chocolate Dosa",
-    description: "Traditional plain dosa topped chocolate chips and served with sambar and coconut chutney",
+    description:
+      "Traditional plain dosa topped chocolate chips and served with sambar and coconut chutney",
     rate: "$9.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Traditional Idli",
-    description: "Three pcs of traditional steamed rice dumplings served with sambar and chutney",
+    description:
+      "Three pcs of traditional steamed rice dumplings served with sambar and chutney",
     rate: "$8.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "M and M Dosa",
-    description: "Kids favorite plain dosa topped chocolate chips and M and M served with sambar and coconut chutney",
+    description:
+      "Kids favorite plain dosa topped chocolate chips and M and M served with sambar and coconut chutney",
     rate: "$10.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Strawberry or Mango Idli",
-    description: "Three pcs of strawberry or mango flavored idli served with sambar and chutney",
+    description:
+      "Three pcs of strawberry or mango flavored idli served with sambar and chutney",
     rate: "$8.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Egg Masala Dosa",
-    description: "Traditional dosa brushed with fresh eggs and filled with mild potato, served with sambar and coconut chutney",
+    description:
+      "Traditional dosa brushed with fresh eggs and filled with mild potato, served with sambar and coconut chutney",
     rate: "$14.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Spinach Idli",
-    description: "3 pcs of spinach flavored idli served with sambar and chutney",
+    description:
+      "3 pcs of spinach flavored idli served with sambar and chutney",
     rate: "$9.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Cheese Masala Dosa",
-    description: "Cheese masala dosa filled with mild potato topped with cheese, served with sambar and coconut chutney",
+    description:
+      "Cheese masala dosa filled with mild potato topped with cheese, served with sambar and coconut chutney",
     rate: "$14.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Fantasy Land",
-    description: "Four pcs of assorted flavored idli served with sambar and chutney",
+    description:
+      "Four pcs of assorted flavored idli served with sambar and chutney",
     rate: "$10.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Plain Cheese Dosa",
-    description: "Traditional plain dosa topped with cheese, served with sambar and coconut chutney",
+    description:
+      "Traditional plain dosa topped with cheese, served with sambar and coconut chutney",
     rate: "$11.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Plain Uthappam",
-    description: "Two pcs of pancake style uthappam served with sambar and chutneys",
+    description:
+      "Two pcs of pancake style uthappam served with sambar and chutneys",
     rate: "$9.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Ghee Masala Dosa",
-    description: "Classic masala dosa filled with mild potato topped with clarified butter and served with sambar and coconut chutney",
+    description:
+      "Classic masala dosa filled with mild potato topped with clarified butter and served with sambar and coconut chutney",
     rate: "$13.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Onion Uthappam",
-    description: "Two pcs of uthappam topped with chopped onions and served with sambar and chutney",
+    description:
+      "Two pcs of uthappam topped with chopped onions and served with sambar and chutney",
     rate: "$12.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Onion and Chilly Uthappam",
-    description: "Two pcs of uthappam topped with chopped onion and green chilly and served with sambar and coconut chutney",
+    description:
+      "Two pcs of uthappam topped with chopped onion and green chilly and served with sambar and coconut chutney",
     rate: "$14.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Beef Dum Biriyani",
-    description: "Steamed basmati or jeera rice cooked with beef cubes and special Malabar spices, lemon juice and green chili, a must-try chef's signature dish",
+    description:
+      "Steamed basmati or jeera rice cooked with beef cubes and special Malabar spices, lemon juice and green chili, a must-try chef's signature dish",
     rate: "$15.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Malabar Chicken Dum Biryani",
-    description: "Steamed basmati or jeera rice cooked with chicken and biryani spices",
+    description:
+      "Steamed basmati or jeera rice cooked with chicken and biryani spices",
     rate: "$12.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Special Dum Biriyani",
-    description: "Steamed basmati or jeera rice cooked with a kingfish steak and special Malabar spices, lemon juice, and green chili, a must-try chef's signature dish",
+    description:
+      "Steamed basmati or jeera rice cooked with a kingfish steak and special Malabar spices, lemon juice, and green chili, a must-try chef's signature dish",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Malabar Vegetable Dum Biryani",
-    description: "Steamed basmati or jeera rice cooked with mixed vegetables and biryani spices",
+    description:
+      "Steamed basmati or jeera rice cooked with mixed vegetables and biryani spices",
     rate: "$10.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Malabar Lamb Dum Biryani",
-    description: "Steamed basmati or jeera rice cooked with fresh lamb cubes and biryani spices",
+    description:
+      "Steamed basmati or jeera rice cooked with fresh lamb cubes and biryani spices",
     rate: "$16.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Raitha",
-    description: "Homemade yogurt mixed with chopped tomato, onion and a hint of cumin",
+    description:
+      "Homemade yogurt mixed with chopped tomato, onion and a hint of cumin",
     rate: "$3.99",
     locations: ["Brampton", "Cambridge"],
   },
   {
     image: "./assets/images/menu-4.png",
     name: "Pappad (three pieces)",
+    description:
+      "Pappad is a thin, seasoned Indian crispy wafer made from lentils, chickpea, or rice flour, often fried or roasted and enjoyed as a side dish or snack.",
     rate: "$1.25",
     locations: ["Brampton", "Cambridge"],
   },
@@ -1111,7 +1183,7 @@ let desiredLocation = "Brampton"; // Set a default location
 // Truncate Function
 function truncateText() {
   const textContainer = document.getElementById("text-container");
-  const maxLength = 20; // Set your desired maximum length
+  const maxLength = 20;
   const text = textContainer.textContent;
 
   if (text.length > maxLength) {
@@ -1163,10 +1235,6 @@ document.addEventListener("DOMContentLoaded", changeLocationOnClick);
 
 // correct
 
-const menuItemsForLocation = menu.filter((menuItem) =>
-  menuItem.locations.includes(desiredLocation)
-);
-
 // menu script
 let menuElement = document.getElementById("menu-modal");
 let viewMenu = document.getElementById("view-menu");
@@ -1180,42 +1248,64 @@ menuClose.addEventListener("click", () => {
   menuElement.classList.remove("modal-active");
   document.body.style.overflow = "auto";
 });
-const menuContent = document.getElementById("menuContent");
-if (menuItemsForLocation.length > 0) {
-  // console.log(`Menu items available in ${desiredLocation}:`);
-  menuItemsForLocation.forEach((menuItem) => {
-    const menuContainer = document.createElement("div");
-    menuContainer.className = "itemContainer";
+function updateMenu(selectedLocation) {
+  // Filter menu items based on the selected location
+  const updatedMenu = menu.filter((menuItem) =>
+    menuItem.locations.includes(selectedLocation)
+  );
 
-    const itemImage = document.createElement("img");
-    itemImage.className = "itemImage";
-    itemImage.src = menuItem.image;
-    itemImage.alt = menuItem.name;
-    itemImage.innerHTML = menuItem.image;
-    const itemTextContainer = document.createElement("div");
-    itemTextContainer.className = "itemTextContainer";
-    const itemName = document.createElement("span");
-    itemName.className = "itemName";
-    itemName.innerHTML = menuItem.name;
-    const itemDesc = document.createElement("span");
-    itemDesc.className = "itemDesc truncate";
-    itemDesc.innerHTML = menuItem.description;
-    const itemRate = document.createElement("span");
-    itemRate.className = "itemRate";
-    itemRate.innerHTML = menuItem.rate;
-    itemTextContainer.appendChild(itemName);
-    itemTextContainer.appendChild(itemDesc);
-    // Append the new div to the existing div
-    menuContainer.appendChild(itemImage);
-    menuContainer.appendChild(itemTextContainer);
-    menuContainer.appendChild(itemRate);
-    menuContent.appendChild(menuContainer);
-    menuElement.appendChild(menuContent);
-  });
-} else {
-  // console.log(`No menu items available in ${desiredLocation}.`);
+  const menuContent = document.getElementById("menuContent");
+  menuContent.innerHTML = ""; // Clear the current menu content
+
+  if (updatedMenu.length > 0) {
+    updatedMenu.forEach((menuItem) => {
+      const menuContainer = document.createElement("div");
+      menuContainer.className = "itemContainer";
+
+      const itemImage = document.createElement("img");
+      itemImage.className = "itemImage";
+      itemImage.src = menuItem.image;
+      itemImage.alt = menuItem.name;
+
+      const itemTextContainer = document.createElement("div");
+      itemTextContainer.className = "itemTextContainer";
+
+      const itemName = document.createElement("span");
+      itemName.className = "itemName";
+      itemName.innerHTML = menuItem.name;
+
+      const itemDesc = document.createElement("span");
+      itemDesc.className = "itemDesc truncate";
+      itemDesc.innerHTML = menuItem.description;
+
+      const itemRate = document.createElement("span");
+      itemRate.className = "itemRate";
+      itemRate.innerHTML = menuItem.rate;
+
+      itemTextContainer.appendChild(itemName);
+      itemTextContainer.appendChild(itemDesc);
+
+      menuContainer.appendChild(itemImage);
+      menuContainer.appendChild(itemTextContainer);
+      menuContainer.appendChild(itemRate);
+
+      menuContent.appendChild(menuContainer);
+    });
+  } else {
+    // If there are no menu items for the selected location
+    // You can display a message or handle it as needed
+  }
 }
 
+const locationDropdown = document.getElementById("locationDropdown");
+locationDropdown.addEventListener("click", function (event) {
+  if (event.target.tagName === "A") {
+    const selectedLocation = event.target.getAttribute("data-location");
+
+    // Update the menu based on the selected location
+    updateMenu(selectedLocation);
+  }
+});
 // menu script end
 
 let currentContentIndex = 0;
