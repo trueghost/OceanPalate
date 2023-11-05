@@ -30,34 +30,10 @@
       rel="stylesheet"
     />
 
-    <style>
-      .grid-container {
-          display: flex;
-          flex-wrap: wrap;
-          width: 100%;
-          justify-content: space-between;
-          margin-top: 30px;
-      }
-      .grid-item {
-          width: 481px;
-          height: 180px;
-          flex-shrink: 0;
-          border-radius: 5px;
-          background: #212121;
-          margin-bottom: 50px;
-          color: white;
-          display: flex;
-          margin-left: 50px;
-          margin-right: 50px;
-          flex-direction: column;
-          justify-content: center;
-      }
-  </style>
-
     <!-- 
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/careers.css" />
+    <link rel="stylesheet" href="./assets/css/franchise.css" />
 
   <!--
     custom PHP link
@@ -68,6 +44,31 @@
     - preload images
   -->
     <link rel="preload" as="image" href="./assets/images/careers.jpg" />
+
+    <style>
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .grid-item {
+            width: 481px;
+            height: 180px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            background: #212121;
+            margin-bottom: 50px;
+            color: white;
+            display: flex;
+            margin-left: 50px;
+            margin-right: 50px;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+
   </head>
 
   <body id="top">
@@ -207,7 +208,7 @@
               <a href="#" class="navbar-link active">
                 <div class="separator"></div>
 
-                <span class="span">Career</span>
+                <span class="span">Catering</span>
               </a>
             </li>
             
@@ -283,7 +284,7 @@
             <div class="slider-item active" data-hero-slider-item>
               <div class="slider-bg">
                 <img
-                  src="./assets/images/careers.jpg"
+                  src="./assets/images/catering.png"
                   width="1880"
                   height="950"
                   alt=""
@@ -292,8 +293,8 @@
               </div>
 
               <h1 class="display-1 hero-title slider-reveal">
-                Build your careers <br />
-                with us
+                Beyond the Plate:  <br />
+                Our Catering Services
               </h1>
 
               
@@ -313,18 +314,17 @@
           <div class="container">
            
 
-            <h2 class="headline-1 section-title title-career" style="text-align: left; font-size: 52px; margin-top: 100px;">BE A PART OF OUR RESTAURANT</h2>
+            <h2 class="headline-1 section-title title-career" style="text-align: left; font-size: 52px; margin-top: 100px;">Elevate Your Events: Discover What Sets Our Catering Service Apart</h2>
 
             <p class="section-text" style="font-size: 26px; text-align: left;  line-height: 37.4px;">
-              At Ocean Palate, we understand that food is more than just sustenance. It is an experience that should be savoured and shared with friends and family.
-We strive to provide our customers with an enjoyable dining experience that includes great food, excellent customer service, and a warm, inviting atmosphere.
+                Our catering service stands out due to a fusion of exceptional qualities that prioritize an unforgettable culinary experience for our clients. Quality is the cornerstone of our service—we meticulously source fresh, local ingredients and craft each dish with precision, ensuring a delightful palate in every bite.
 
             </p>
           </div>
         </div>
         <div class="special-dish-banner">
           <img
-            src="./assets/images/Resturant-1.jpg  "
+            src="./assets/images/fran_sub1.png"
             width="642"
             height="512"
             loading="lazy"
@@ -339,7 +339,7 @@ We strive to provide our customers with an enjoyable dining experience that incl
       <section class="special-dish2 text-center bg-black-10"id="special" aria-labelledby="dish-label">
         <div class="special-dish-banner">
           <img
-            src="./assets/images/resturant-img-2.png"
+            src="./assets/images/fran_sub2.png"
             width="940"
             height="500"
             loading="lazy"
@@ -351,7 +351,7 @@ We strive to provide our customers with an enjoyable dining experience that incl
         <div class="special-dish-content">
           <div class="container">
             <p class="section-text" style="font-size: 26px; text-align: left;  line-height: 37.4px; margin-top: 100px;">
-              We are always looking for talented individuals to join our team and help us create an unforgettable experience for our customers. If you are passionate about food, customer service, and making people happy, then a career in Ocean Palate could be the perfect fit for you.
+                What sets us apart is our diverse and customizable menu, accommodating various dietary needs, from vegan to gluten-free, showcasing our commitment to inclusivity. Our experienced and professional staff guarantee a seamless event, attending to every detail with utmost care. With years of expertise in catering, we specialize in tailoring unique experiences, whether it's an elegant wedding affair or a corporate luncheon.
             </p>
           </div>
         </div>
@@ -368,24 +368,48 @@ We strive to provide our customers with an enjoyable dining experience that incl
             <!-- Add the feedback form below -->
             <div class="form feedback-form bg-black-10">
                 <form class="form-left" method="post">
-                    <h2 class="headline-1 text-center" style="margin-bottom: 20px;">Feedback Form</h2>
+                    <h2 class="headline-1 text-center" style="padding-bottom: 20px;">Enquiry Form</h2>
     
                     <div class="input-wrapper">
-                        <input
-                            type="text"
-                            name="name"
-                            placeholder="Your Name"
-                            autocomplete="off"
-                            class="input-field"
-                        />
-    
-                        <input
+                        <div style="display: flex; gap: 10px;">
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Your Name"
+                                autocomplete="off"
+                                class="input-field"
+                                style="width: 100%; margin-right: 10px;"
+                            />
+                            <input
+                                type="text"
+                                name="phone"
+                                placeholder="Phone Number"
+                                autocomplete="off"
+                                class="input-field"
+                                style="width: 100%;"
+                            />
+                        </div>
+
+                        <div style="display: flex; gap: 10px;">
+                            <input
                             type="email"
                             name="email"
                             placeholder="Your Email"
                             autocomplete="off"
                             class="input-field"
-                        />
+                            style="width: 100%; margin-right: 10px;"
+                            />
+                            <input
+                                type="text"
+                                name="location"
+                                placeholder="Location of the event"
+                                autocomplete="off"
+                                class="input-field"
+                                style="width: 100%;"
+                            />
+                        </div>
+    
+                        
                     </div>
     
                     <textarea
@@ -412,31 +436,31 @@ We strive to provide our customers with an enjoyable dining experience that incl
         - #EVENT
       -->
 
-      <section class="section event bg-black-10" aria-label="event">
-        <div class="container">
-          <h2 class="headline-1 text-center">CURRENT OPENINGS</h2>
+        <section class="section event bg-black-10" aria-label="event">
+          <div class="container">
+            <h2 class="headline-1 text-center">CURRENT LOCATIONS</h2>
 
-              <div class="grid-container">
-                  <div class="grid-item">
-                      <p style="font-size: 24px; margin: 0px 20px 30px 20px;">Ocean Palate</p>
-                      <p style="font-size: 20px; margin: 0px 100px 0px 20px; text-transform: uppercase;">10910 Goreway Dr, Brampton, ON L6P 4N4</p>
-                  </div>
-                  <div class="grid-item">
-                      <p style="font-size: 24px; margin: 0px 20px 30px 20px;">Ocean Palate</p>
-                      <p style="font-size: 20px; margin: 0px 100px 0px 20px; text-transform: uppercase;">1151 Eglinton Ave E, Mississauga, ON L4W 1K6, Canada</p>
-                  </div>
-                  <div class="grid-item">
-                      <p style="font-size: 24px; margin: 0px 20px 30px 20px;">Ocean Palate</p>
-                      <p style="font-size: 20px; margin: 0px 100px 0px 20px; text-transform: uppercase;">2732 Barton St E Unit 7, Hamilton, ON L8E 4M6, Canada</p>
-                  </div>
-                  <div class="grid-item">
-                      <p style="font-size: 24px; margin: 0px 20px 30px 20px;">Ocean Palate</p>
-                      <p style="font-size: 20px; margin: 0px 100px 0px 20px; text-transform: uppercase;">Hespeler, Cambridge, ON N3C 4N6, Canada</p>
-                  </div>
-              </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <p style="font-size: 24px; margin: 0px 20px 30px 20px;">Ocean Palate</p>
+                        <p style="font-size: 20px; margin: 0px 100px 0px 20px; text-transform: uppercase;">10910 Goreway Dr, Brampton, ON L6P 4N4</p>
+                    </div>
+                    <div class="grid-item">
+                        <p style="font-size: 24px; margin: 0px 20px 30px 20px;">Ocean Palate</p>
+                        <p style="font-size: 20px; margin: 0px 100px 0px 20px; text-transform: uppercase;">1151 Eglinton Ave E, Mississauga, ON L4W 1K6, Canada</p>
+                    </div>
+                    <div class="grid-item">
+                        <p style="font-size: 24px; margin: 0px 20px 30px 20px;">Ocean Palate</p>
+                        <p style="font-size: 20px; margin: 0px 100px 0px 20px; text-transform: uppercase;">2732 Barton St E Unit 7, Hamilton, ON L8E 4M6, Canada</p>
+                    </div>
+                    <div class="grid-item">
+                        <p style="font-size: 24px; margin: 0px 20px 30px 20px;">Ocean Palate</p>
+                        <p style="font-size: 20px; margin: 0px 100px 0px 20px; text-transform: uppercase;">Hespeler, Cambridge, ON N3C 4N6, Canada</p>
+                    </div>
+                </div>
 
-        </div>
-      </section>
+          </div>
+        </section>
       </article>
     </main>
 
